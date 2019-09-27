@@ -33,6 +33,7 @@ function App() {
             <p class="copyright">&copy; 2019 Daniel Gawne | Built with React</p>
         </Layout>
       </div>
+      <LandingPage />
     </div>
   );
 }
