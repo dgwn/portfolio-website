@@ -16,13 +16,13 @@ class Landing extends Component {
               <p>HTML/CSS  /  Javascript  /  ReactJS  /  Graphic Design</p>
               <div class="social-links">
                 <a href="https://www.linkedin.com/in/dgwne/" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-linkedin-square" aria-hidden="true" style={{color: '#0077B5'}}/>
+                  <i className="fab fa-linkedin-square"  style={{color: '#0077B5'}}/>
                 </a>
                 <a href="https://github.com/dgwn" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-github-square" aria-hidden="true" style={{color: '#6e5494'}}/>
+                  <i className="fab fa-github-square"  style={{color: '#6e5494'}}/>
                 </a>
                 <a href="https://www.freecodecamp.org/dgwn" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-free-code-camp" aria-hidden="true" style={{color: '#00471b'}}/>
+                  <i className="fab fa-free-code-camp"  style={{color: '#00471b'}}/>
                 </a>
               </div>
             </div>
