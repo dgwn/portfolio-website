@@ -11,7 +11,7 @@ class Tile extends Component {
         {this.props.js && <i class="fab fa-js" style={{fontSize: 30}}></i>}
         {this.props.react && <i class="fab fa-react" style={{fontSize: 30}}></i>}
       </div>
-      <a href={this.props.link}>Click Here!</a>
+      <a href={this.props.link} target="_blank" rel="noopener noreferrer">Click Here!</a>
     </div>
   )
   }
