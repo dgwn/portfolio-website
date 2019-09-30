@@ -6,10 +6,10 @@ class Projects extends Component {
     const PROJECTS = [
       {
         id: 1,
-        title: "Drum Machine",
-        blurb: "Multiple configurations of pads which trigger different audio samples",
-        link: "#",
-        js: false,
+        title: "Random Quote Generator",
+        blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Random Quote Machine\"",
+        link: "https://codepen.io/dgwn/pen/BaBgwBd",
+        js: true,
         react: true
       },
       {
