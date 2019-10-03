@@ -19,6 +19,14 @@ class Projects extends Component {
         link: "https://github.com/dgwn/etch-sketch",
         js: true,
         react: false
+      },
+      {
+        id: 3,
+        title: "Bookmarker",
+        blurb: "Client side application to store URL bookmarks",
+        link: "https://github.com/dgwn/bookmarker-web-app",
+        js: true,
+        react: false
       }
     ]
 
