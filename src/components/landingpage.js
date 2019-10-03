@@ -28,8 +28,8 @@ class Landing extends Component {
             </div>
             <div class="banner-text banner-yellow">
               <h3>About Me</h3>
-              <p>I am a fresh web developer focusing on the front-end. I graduated from the University of Central Florida with a B.A. in Philosophy and a minor in Sociology.</p>
-              <p>I am especially interested in the role technology plays in changing social structures, such as culture, politics, and the workplace. I hope to use my toolkit to work with small businesses and nonprofits so that they better meet their goals through developing an online presence and addressing application needs.</p>
+              <p>Welcome! I am a web developer from the Orlando area. My focus is primarily on the front-end and UI/UX, but I also dabble in other parts of the stack. I work with HTML/CSS, Vanilla Javascript, React, Sass, and prototype in Adobe XD and Photoshop. While coming from a background focused more in content than delivery, I have worked in the internet industry for at least 5 years and have done design work since 2010.</p>
+              <p>I graduated from the University of Central Florida with a B.A. in Philosophy and a minor in Sociology. While my formal education does not fall neatly into the STEM category, my research in my B.A. program focused largely on the role of technology and media on human labor and development. Additionally, my study of philosophy honed my analytic skills through the use of formal logic and ability to assume the positions of others in order to gain a wider understanding of a topic. These tools are indispensible both for doing UX research and for writing clean, coherent, and consistent code. I hope to use my toolkit to work with clients such as small businesses and nonprofits in order to help them develop an online presence and address application needs.</p>
             </div>
           </Cell>
         </Grid>
