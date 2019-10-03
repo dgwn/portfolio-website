@@ -39,6 +39,9 @@ html{
   border: 3px solid black;
   box-shadow: -5px 5px black;
 }
+.banner-text p{
+  padding: 3em;
+}
 .banner-blue{
   background-color: #C0FCDC;
 }
@@ -73,7 +76,6 @@ html{
   justify-content: space-around;
   width: 50;
   margin: auto;
-
 }
 .social-links i{
   font-size: 5em;
@@ -85,6 +87,11 @@ html{
 }
 .social-links i:hover{
   margin-top: -5px;
+}
+.about-text{
+  text-align: justify;
+  font-size: 16px;
+  margin: 0em 2em 1em 2em;
 }
 .tile-container{
   display: flex;
