@@ -31,7 +31,7 @@ function App() {
                 <div className="page-content" />
                 <Main />
             </Content>
-            <p class="copyright">&copy; 2019 Daniel Gawne | Built with React</p>
+            <p class="copyright">&copy; 2019 Daniel Gawne</p>
         </Layout>
       </div>
 
