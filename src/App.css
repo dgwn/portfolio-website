@@ -117,6 +117,15 @@ html{
   margin-bottom: 0px;
 }
 @media only screen and (max-width: 600px) {
+  .landing-grid h1{
+    font-size: 3em;
+  }
+  .nav{
+    display: none;
+  }
+  .page-content{
+    margin-top: 56px;
+  }
   .banner-text{
     width: 95%
   }
