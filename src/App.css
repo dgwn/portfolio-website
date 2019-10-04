@@ -5,9 +5,7 @@ html{
 .header-color{
   background: #fefefe;
 }
-.button-bg{
-  display: none;
-}
+
 .nav{
   z-index: 3;
 }
