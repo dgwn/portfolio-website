@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div className="demo-big-content">
         <Layout>
-            <Header title=" " class="header-color" scroll>
+            <Header title=" " class="header-color nav" scroll>
                 <Navigation>
                     <Link to="/" style={{color: "black"}}>Home</Link>
                     <a href={resume} style={{color: "black"}} target="_blank" rel="noopener noreferrer">Resume</a>
