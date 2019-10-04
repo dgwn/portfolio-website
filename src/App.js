@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="demo-big-content">
+      <div className="button-bg"></div>
         <Layout>
             <Header title=" " class="header-color nav" scroll>
                 <Navigation>
