@@ -5,6 +5,9 @@ html{
 .header-color{
   background: #fefefe;
 }
+.button-bg{
+  display: none;
+}
 
 .landing-grid h1{
   font-family: 'Noto Sans', sans-serif;
@@ -117,14 +120,26 @@ html{
   margin-bottom: 0px;
 }
 @media only screen and (max-width: 600px) {
+  .button-bg{
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: 50px;
+    width: 50px;
+    background-color: #fafafa;
+    z-index: 3;
+    border-radius: 100px;
+    border: 1.5px black solid;
+  }
   .landing-grid h1{
-    font-size: 3em;
+    font-size: 2em;
   }
   .nav{
     display: none;
   }
   .page-content{
-    margin-top: 56px;
+    margin-top: 3px;
   }
   .banner-text{
     width: 95%
