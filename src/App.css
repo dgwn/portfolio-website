@@ -8,6 +8,9 @@ html{
 .button-bg{
   display: none;
 }
+.nav{
+  z-index: 3;
+}
 
 .landing-grid h1{
   font-family: 'Noto Sans', sans-serif;
@@ -122,13 +125,13 @@ html{
 @media only screen and (max-width: 600px) {
   .button-bg{
     display: block;
-    position: absolute;
+    position: fixed;
     left: 2px;
     top: 2px;
     height: 50px;
     width: 50px;
     background-color: #fafafa;
-    z-index: 3;
+    z-index: 2;
     border-radius: 100px;
     border: 1.5px black solid;
   }
