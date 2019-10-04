@@ -1,16 +1,11 @@
 html{
   text-align: center;
   background: #fefefe;
-
 }
-
 .header-color{
   background: #fefefe;
 }
 
-.landing-grid {
-
-}
 .landing-grid h1{
   font-family: 'Noto Sans', sans-serif;
   font-size: 48px;
@@ -109,9 +104,6 @@ html{
   background-color: #FDF591;
   margin: 30px;
   padding: 10px;
-  p{
-    font-size: 100px;
-  }
 }
 .techUsed p{
   margin-bottom: 0px;
@@ -123,4 +115,24 @@ html{
 .copyright{
   border-top: 3px solid black;
   margin-bottom: 0px;
+}
+@media only screen and (max-width: 500px) {
+  .banner-text{
+    width: 95%
+  }
+  .banner-text p{
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px;
+  }
+  .social-links i{
+    font-size: 2em;
+  }
+  .banner-text h3{
+    font-size: 26px;
+  }
+  .tile p{
+    font-size: 1em;
+  }
+
 }
