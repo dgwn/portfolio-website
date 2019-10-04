@@ -116,7 +116,7 @@ html{
   border-top: 3px solid black;
   margin-bottom: 0px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .banner-text{
     width: 95%
   }
