@@ -27,6 +27,14 @@ class Projects extends Component {
         link: "https://github.com/dgwn/bookmarker-web-app",
         js: true,
         react: false
+      },
+      {
+        id: 4,
+        title: "Markdown Previewer",
+        blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Markdown Previewer\"",
+        link: "https://codepen.io/dgwn/pen/XWWWxXZ",
+        js: true,
+        react: true
       }
     ]
 
