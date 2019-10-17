@@ -5,7 +5,23 @@ class Projects extends Component {
   render() {
     const PROJECTS = [
       {
+        id: 0,
+        title: "Drum Machine",
+        blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Drum Machine\"",
+        link: "https://codepen.io/dgwn/pen/eYYZEOr",
+        js: true,
+        react: true
+      },
+      {
         id: 1,
+        title: "Markdown Previewer",
+        blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Markdown Previewer\"",
+        link: "https://codepen.io/dgwn/pen/XWWWxXZ",
+        js: true,
+        react: true
+      },
+      {
+        id: 2,
         title: "Random Quote Generator",
         blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Random Quote Machine\"",
         link: "https://codepen.io/dgwn/pen/BaBgwBd",
@@ -13,7 +29,7 @@ class Projects extends Component {
         react: true
       },
       {
-        id: 2,
+        id: 3,
         title: "Etch Sketch",
         blurb: "Webpage with interactive cursor drawing",
         link: "https://github.com/dgwn/etch-sketch",
@@ -21,21 +37,14 @@ class Projects extends Component {
         react: false
       },
       {
-        id: 3,
+        id: 4,
         title: "Bookmarker",
         blurb: "Client side application to store URL bookmarks",
         link: "https://github.com/dgwn/bookmarker-web-app",
         js: true,
         react: false
-      },
-      {
-        id: 4,
-        title: "Markdown Previewer",
-        blurb: "Fulfills FreeCodeCamp front-end-libraries project: \"Build a Markdown Previewer\"",
-        link: "https://codepen.io/dgwn/pen/XWWWxXZ",
-        js: true,
-        react: true
       }
+
     ]
 
     return(
