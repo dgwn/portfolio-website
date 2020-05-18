@@ -80,7 +80,7 @@ a {
 .social-links {
   display: flex;
   justify-content: space-around;
-  width: 50;
+  width: 50%;
   margin: auto;
   margin-bottom: 5px;
   padding-left: 20px;
@@ -193,4 +193,13 @@ a {
   .tile p {
     font-size: 1em;
   }
+}
+
+#contact-box {
+  display: flex;
+  flex-direction: column;
+}
+#contact-box div {
+  display: flex;
+  justify-content: center;
 }

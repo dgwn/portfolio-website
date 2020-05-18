@@ -13,9 +13,12 @@ class Landing extends Component {
             <h1>Daniel Gawne</h1>
             <img src={headshot} alt="headshot" className="avatar-img" />
             <div className="banner-text banner-blue">
-              <h3>Full Stack Web Developer</h3>
+              <h3>Web Developer</h3>
               <hr />
-              <p>HTML/CSS / MERN Stack / Javascript / Design</p>
+              <p>
+                Javascript | HTML | CSS/Sass <br></br> ReactJS | NodeJS/Express
+                | MongoDB
+              </p>
               <div className="social-links">
                 <a
                   href="https://www.linkedin.com/in/dgwne/"

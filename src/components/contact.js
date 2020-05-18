@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div className="banner-text banner-blue">
+        <div className="banner-text banner-blue" id="contact-box">
           <h3>Contact Me</h3>
           <hr />
           <p>Email: danielgawne@gmail.com</p>
@@ -28,6 +28,8 @@ class Contact extends Component {
             >
               <p>LinkedIn Profile</p>
             </a>
+          </div>
+          <div className="social-links">
             <a
               href="https://github.com/dgwn"
               target="_blank"
