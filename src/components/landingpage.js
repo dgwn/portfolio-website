@@ -35,15 +35,6 @@ class Landing extends Component {
                     <use href={sprite + "#icon-github"}></use>
                   </svg>
                 </a>
-                <a
-                  href="https://www.freecodecamp.org/dgwn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <svg className="svg_icon">
-                    <use href={sprite + "#icon-freecodecamp"}></use>
-                  </svg>
-                </a>
               </div>
             </div>
             <div className="banner-text banner-yellow">
