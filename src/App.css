@@ -1,11 +1,11 @@
-html{
+html {
   text-align: center;
   background: #fefefe;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
 }
-.header-color{
+.header-color {
   background: #fefefe;
 }
 /*
@@ -13,18 +13,18 @@ a {
   display: none;
 }
 */
-.nav{
+.nav {
   z-index: 3;
 }
 
-.landing-grid h1{
-  font-family: 'Noto Sans', sans-serif;
+.landing-grid h1 {
+  font-family: "Noto Sans", sans-serif;
   font-size: 48px;
   font-weight: bold;
   color: black;
   margin: -10px auto 30px auto;
 }
-.avatar-img{
+.avatar-img {
   height: 250px;
   border-radius: 100%;
   border: 3px solid black;
@@ -36,7 +36,7 @@ a {
   margin: -25px auto 5px auto;
 }
 */
-.banner-text{
+.banner-text {
   background-color: white;
   opacity: 1;
   width: 75%;
@@ -45,34 +45,34 @@ a {
   border: 3px solid black;
   box-shadow: -5px 5px black;
 }
-.banner-text p{
+.banner-text p {
   padding: 3em;
 }
-.banner-blue{
-  background-color: #C0FCDC;
+.banner-blue {
+  background-color: #c0fcdc;
 }
-.banner-blue:hover{
-  background-color: #9AEBC0;
+.banner-blue:hover {
+  background-color: #9aebc0;
 }
-.banner-yellow{
-  background-color: #FDF591;
+.banner-yellow {
+  background-color: #fdf591;
 }
-.banner-yellow:hover{
-  background-color: #F0E76F;
+.banner-yellow:hover {
+  background-color: #f0e76f;
 }
-.banner-text h3{
-  font-family: 'Noto Sans', sans-serif;
+.banner-text h3 {
+  font-family: "Noto Sans", sans-serif;
   font-size: 40px;
   color: black;
   padding-top: 20px;
 }
-.banner-text hr{
+.banner-text hr {
   border-top: 5px solid black;
   width: 50%;
   margin: auto;
 }
-.banner-text p{
-  font-family: 'Noto Sans', sans-serif;
+.banner-text p {
+  font-family: "Noto Sans", sans-serif;
   color: black;
   font-size: 20px;
   padding: 1em;
@@ -82,31 +82,48 @@ a {
   justify-content: space-around;
   width: 50;
   margin: auto;
+  margin-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.social-links i{
+
+.social-links i {
   font-size: 5em;
-  padding-bottom: 20px;
-  margin-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
   -webkit-transition: margin 0.1s ease-out;
   -moz-transition: margin 0.1s ease-out;
   -o-transition: margin 0.1s ease-out;
 }
-.social-links i:hover{
+
+.social-links i:hover {
   margin-top: -5px;
 }
-.about-text{
+
+.svg_icon {
+  height: 4.5em;
+  width: 4.5em;
+  padding-bottom: 10px;
+  -webkit-transition: margin 0.1s ease-out;
+  -moz-transition: margin 0.1s ease-out;
+  -o-transition: margin 0.1s ease-out;
+}
+
+.svg_icon:hover {
+  margin-top: -5px;
+}
+
+.about-text {
   text-align: justify;
   font-size: 16px;
   margin: 0em 2em 1em 2em;
 }
-.tile-container{
+.tile-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.tile{
+.tile {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -114,23 +131,23 @@ a {
   box-shadow: -5px 5px black;
   width: 300px;
   max-height: 300px;
-  background-color: #FDF591;
+  background-color: #fdf591;
   margin: 30px;
   padding: 10px;
 }
-.linkStyle{
+.linkStyle {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.techUsed p{
+.techUsed p {
   margin-bottom: 0px;
 }
-.tile:hover{
+.tile:hover {
   box-shadow: -8px 8px black;
-  background-color: #F0E76F;
+  background-color: #f0e76f;
 }
-.copyright{
+.copyright {
   border-top: 3px solid black;
   margin-bottom: 0px;
 }
@@ -149,32 +166,31 @@ a {
     border: 1.5px black solid;
   }
   */
-  .landing-grid h1{
+  .landing-grid h1 {
     font-size: 2em;
   }
-  .nav{
+  .nav {
     display: none;
   }
-  .page-content{
+  .page-content {
     margin-top: 3px;
   }
-  .banner-text{
-    width: 95%
+  .banner-text {
+    width: 95%;
   }
-  .banner-text p{
+  .banner-text p {
     font-size: 1em;
     line-height: 1.5em;
     padding: 10px;
   }
-  .social-links i{
+  .social-links i {
     padding-left: 50px;
     font-size: 2em;
   }
-  .banner-text h3{
+  .banner-text h3 {
     font-size: 26px;
   }
-  .tile p{
+  .tile p {
     font-size: 1em;
   }
-
 }
