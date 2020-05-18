@@ -44,6 +44,7 @@ a {
   border-radius: 0px;
   border: 3px solid black;
   box-shadow: -5px 5px black;
+  transition: all 0.3s;
 }
 .banner-text p {
   padding: 3em;
@@ -53,12 +54,14 @@ a {
 }
 .banner-blue:hover {
   background-color: #9aebc0;
+  box-shadow: -8px 8px black;
 }
 .banner-yellow {
   background-color: #fdf591;
 }
 .banner-yellow:hover {
   background-color: #f0e76f;
+  box-shadow: -8px 8px black;
 }
 .banner-text h3 {
   font-family: "Noto Sans", sans-serif;
@@ -134,6 +137,7 @@ a {
   background-color: #fdf591;
   margin: 30px;
   padding: 10px;
+  transition: all 0.3s;
 }
 .linkStyle {
   display: flex;
