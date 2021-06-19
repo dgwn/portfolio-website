@@ -43,28 +43,27 @@ class Landing extends Component {
             <div className="banner-text banner-yellow">
               <h3>About Me</h3>
               <p className="about-text">
-                Welcome! I am a web developer from the Orlando area. My
-                experience is mostly with the MERN stack (MongoDB, ExpressJS,
-                ReactJS, NodeJS). I also work with HTML/CSS, Sass, Vanilla
-                Javascript, UI/UX design, and prototype in Adobe XD and
-                Photoshop. While coming from a background focused more in
-                content than delivery, I have worked in the internet industry
-                for at least 5 years and have done design work since 2010.
+                Welcome! I am a web developer from the Orlando area. I work
+                primarily in the MERN stack (MongoDB, ExpressJS, ReactJS,
+                NodeJS). I also work with HTML/CSS, Sass, Vanilla Javascript,
+                UI/UX design, and prototype in Adobe XD and Photoshop. While
+                coming from a background focused more in content than delivery,
+                I have worked in the internet industry for at least 5 years and
+                have done design work since 2010.
               </p>
               <p className="about-text">
                 I graduated from the University of Central Florida with a B.A.
-                in Philosophy and a minor in Sociology. While my formal
-                education does not originate in STEM, my research in my B.A.
+                in Philosophy and a minor in Sociology. Research in my B.A.
                 program focused largely on the role of technology and media on
-                human labor and identity development. Additionally, my study of
-                philosophy honed my analytic skills through the use of formal
-                logic and the ability to assume the positions of others in order
-                to gain a wider understanding of a topic. These tools are
-                indispensible both for doing UX research and for writing clean,
-                coherent, and consistent code. I hope to use my toolkit to work
-                with clients such as small businesses and nonprofits in order to
-                help them develop an online presence and address application
-                needs.
+                human labor and identity development through social
+                media/networking. Additionally, my study of philosophy developed
+                analytic skills through the use of formal logic, as well as the
+                ability to assume the positions of others in order to gain a
+                wider understanding of a topic. These tools are indispensible
+                both for doing UX research and for writing clean, coherent, and
+                consistent code. I hope to use my toolkit to work with clients
+                such as small businesses and nonprofits in order to help them
+                develop an online presence and address application needs.
               </p>
             </div>
           </Cell>
