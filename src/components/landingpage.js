@@ -46,10 +46,9 @@ class Landing extends Component {
                 Welcome! I am a web developer from the Orlando area. I work
                 primarily in the MERN stack (MongoDB, ExpressJS, ReactJS,
                 NodeJS). I also work with HTML/CSS, Sass, Vanilla Javascript,
-                UI/UX design, and prototype in Adobe XD and Photoshop. While
-                coming from a background focused more in content than delivery,
-                I have worked in the internet industry for at least 5 years and
-                have done design work since 2010.
+                UI/UX design, and prototype in Adobe XD and Photoshop. I have
+                worked in the internet industry for over 5 years and have done
+                design work since 2010.
               </p>
               <p className="about-text">
                 I graduated from the University of Central Florida with a B.A.
