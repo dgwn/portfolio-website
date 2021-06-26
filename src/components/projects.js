@@ -8,9 +8,10 @@ class Projects extends Component {
         id: 0,
         title: "Blog App",
         blurb:
-          "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework",
+          "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
         link:
           "https://github.com/dgwn/fullstackopen/tree/master/part7/extended-bloglist",
+        liveLink: "https://fso-blog-app0.herokuapp.com",
         js: true,
         react: true,
         node: true,
