@@ -6,11 +6,22 @@ class Projects extends Component {
     const PROJECTS = [
       {
         id: 0,
+        title: "Homeland Security\nService LLC - Website",
+        blurb:
+          "Squarespace site designed, deployed, and delivered by yours truly",
+        liveLink: "https://www.homelandsecurityservicellc.com",
+        js: false,
+        react: false,
+        node: false,
+        db: false,
+        ss: true
+      },
+      {
+        id: 1,
         title: "Blog App",
         blurb:
           "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
-        link:
-          "https://github.com/dgwn/fullstackopen/tree/master/part7/extended-bloglist",
+        link: "https://github.com/dgwn/fullstackopen/tree/master/part7/extended-bloglist",
         liveLink: "https://fso-blog-app0.herokuapp.com",
         js: true,
         react: true,
@@ -18,12 +29,11 @@ class Projects extends Component {
         db: true
       },
       {
-        id: 1,
+        id: 2,
         title: "Phonebook",
         blurb:
           "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework",
-        link:
-          "https://github.com/dgwn/fullstackopen/tree/master/part3/phonebook",
+        link: "https://github.com/dgwn/fullstackopen/tree/master/part3/phonebook",
         liveLink: "https://phonebook-72648.herokuapp.com",
         js: true,
         react: true,
@@ -31,7 +41,7 @@ class Projects extends Component {
         db: true
       },
       {
-        id: 2,
+        id: 3,
         title: "Drum Machine",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Drum Machine"',
@@ -43,7 +53,7 @@ class Projects extends Component {
         db: false
       },
       {
-        id: 3,
+        id: 4,
         title: "Markdown Previewer",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Markdown Previewer"',
@@ -55,7 +65,7 @@ class Projects extends Component {
         db: false
       },
       {
-        id: 4,
+        id: 5,
         title: "Random Quote Generator",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Random Quote Machine"',
@@ -67,7 +77,7 @@ class Projects extends Component {
         db: false
       },
       {
-        id: 5,
+        id: 6,
         title: "Etch Sketch",
         blurb: "Webpage with interactive cursor drawing",
         link: "https://github.com/dgwn/etch-sketch",
@@ -77,7 +87,7 @@ class Projects extends Component {
         db: false
       },
       {
-        id: 6,
+        id: 7,
         title: "Bookmarker",
         blurb: "Client side application to store URL bookmarks",
         link: "https://github.com/dgwn/bookmarker-web-app",
@@ -101,6 +111,7 @@ class Projects extends Component {
               react={item.react}
               node={item.node}
               db={item.db}
+              ss={item.ss}
             />
           );
         })}
