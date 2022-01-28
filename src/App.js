@@ -46,7 +46,7 @@ function App() {
           <Content>
             <div className="page-content" />
             <Main />
-            <p class="copyright">&copy; 2021 Daniel Gawne</p>
+            <p class="copyright">&copy; 2022 Daniel Gawne</p>
           </Content>
         </Layout>
       </div>
