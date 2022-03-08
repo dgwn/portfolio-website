@@ -45,25 +45,23 @@ class Landing extends Component {
               <p className="about-text">
                 Welcome! I am a full stack web developer from the Orlando area.
                 I am experienced in ReactJS, HTML, CSS/Sass, NodeJS, ExpressJS,
-                vanilla Javascript, Typescript, Git/Github, and Python. I also
-                have experience doing web design, UI/UX design, Squarespace
-                development, and prototyping in Adobe XD and Photoshop. I have
-                worked in the internet industry for over 7 years and have done
-                design work since 2010.
+                vanilla Javascript, Typescript, Git/Github, PHP, and Python. I
+                also have experience doing web design, software testing, UI/UX
+                design, Squarespace development, and prototyping in Adobe XD and
+                Photoshop. I have worked in the internet industry for over 7
+                years and have done design work since 2010.
               </p>
               <p className="about-text">
                 I graduated from the University of Central Florida with a B.A.
-                in Philosophy and a minor in Sociology. Research in my B.A.
-                program focused largely on the role of technology and media on
-                labor and identity development through social media/networking.
-                Additionally, my study of philosophy developed analytic skills
-                through the use of formal logic, as well as the ability to
-                assume the positions of others in order to gain a wider
-                understanding of a topic. These tools are indispensible both for
-                doing UX research and for writing clean, coherent, and
-                consistent code. I hope to use my toolkit to work with clients
-                such as small businesses and nonprofits in order to help them
-                develop an online presence and address application needs.
+                in Philosophy and a minor in Sociology. My studies involved a
+                research intensive program which developed analytic skills
+                through the use of formal logic, studies of populations, and the
+                role of symbols in communication. These tools are indispensible
+                both for writing clean, coherent, and consistent code and for
+                doing UX research. I hope to use my toolkit to work with
+                individuals and businesses in order to help them develop
+                creative and effective online presences and address application
+                needs.
               </p>
             </div>
           </Cell>
