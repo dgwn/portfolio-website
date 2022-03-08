@@ -2,7 +2,7 @@ import React from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
-import resume from "./assets/resume.pdf";
+import resume from "./assets/resume1.pdf";
 
 import "./App.css";
 
