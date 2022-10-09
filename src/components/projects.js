@@ -8,8 +8,8 @@ class Projects extends Component {
         id: 0,
         title: "Homeland Security\nService LLC - Website",
         blurb:
-          "Squarespace site designed, deployed, and delivered by yours truly",
-        liveLink: "https://www.homelandsecurityservicellc.com",
+          "Squarespace site designed, deployed, and delivered by yours truly (archived link)",
+        link: "https://archive.ph/LJFyS",
         js: false,
         react: false,
         node: false,
