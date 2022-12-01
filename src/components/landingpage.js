@@ -59,13 +59,7 @@ class Landing extends Component {
                 program included coursework focused on Ethics in Technology,
                 language, communication, demographic studies, and social trends.
                 These tools are indispensible both for writing clean, coherent,
-                and consistent code as well as for doing UX research. I have
-                also completed coursework through the University of Helsinki's
-                Full Stack Open program, learning to leverage the latest
-                technologies and frameworks to develop web apps. I like to use
-                my toolkit to work with individuals and businesses in order to
-                help them develop creative and robust online presences - whether
-                it be a static web page or interactive full-stack application.
+                and consistent code as well as for doing UX research.
               </p>
               <p className="about-text">
                 I have also completed coursework through the University of
