@@ -55,13 +55,26 @@ class Landing extends Component {
                 I graduated from the University of Central Florida with a B.A.
                 in Philosophy and a minor in Sociology. My studies involved a
                 research intensive program which developed analytic skills
-                through the use of formal logic, studies of populations, and the
-                role of symbols in communication. These tools are indispensible
-                both for writing clean, coherent, and consistent code and for
-                doing UX research. I hope to use my toolkit to work with
-                individuals and businesses in order to help them develop
-                creative and effective online presences and address application
-                needs.
+                through the use of formal logic and critical thinking. My
+                program included coursework focused on Ethics in Technology,
+                language, communication, demographic studies, and social trends.
+                These tools are indispensible both for writing clean, coherent,
+                and consistent code as well as for doing UX research. I have
+                also completed coursework through the University of Helsinki's
+                Full Stack Open program, learning to leverage the latest
+                technologies and frameworks to develop web apps. I like to use
+                my toolkit to work with individuals and businesses in order to
+                help them develop creative and robust online presences - whether
+                it be a static web page or interactive full-stack application.
+              </p>
+              <p className="about-text">
+                I have also completed coursework through the University of
+                Helsinki's Full Stack Open program, learning to leverage the
+                latest technologies and frameworks to develop web apps. I like
+                to use my toolkit to work with individuals and businesses in
+                order to help them develop creative and robust online presences
+                - whether it be a static web page or interactive full-stack
+                application.
               </p>
             </div>
           </Cell>
