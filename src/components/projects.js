@@ -33,7 +33,7 @@ class Projects extends Component {
         blurb:
           "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework. Self-hosted on Linux server",
         link: "https://github.com/dgwn/fullstackopen/tree/master/part3/phonebook",
-        liveLink: "phonebook.crabdance.com",
+        liveLink: "http://phonebook.crabdance.com",
         js: true,
         react: true,
         node: true,
