@@ -9,7 +9,7 @@ class Projects extends Component {
         title: "Homeland Security\nService LLC - Website",
         blurb:
           "Squarespace site designed, deployed, and delivered by yours truly (archived link)",
-        link: "https://archive.ph/LJFyS",
+        liveLink: "https://archive.ph/LJFyS",
         js: false,
         react: false,
         node: false,
@@ -22,7 +22,6 @@ class Projects extends Component {
         blurb:
           "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
         link: "https://github.com/dgwn/fullstackopen/tree/master/part7/extended-bloglist",
-        liveLink: "https://fso-blog-app0.herokuapp.com",
         js: true,
         react: true,
         node: true,
@@ -32,9 +31,9 @@ class Projects extends Component {
         id: 2,
         title: "Phonebook",
         blurb:
-          "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework",
+          "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework. Self-hosted on Linux server",
         link: "https://github.com/dgwn/fullstackopen/tree/master/part3/phonebook",
-        liveLink: "https://phonebook-72648.herokuapp.com",
+        liveLink: "phonebook.crabdance.com",
         js: true,
         react: true,
         node: true,
