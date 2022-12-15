@@ -21,6 +21,7 @@ class Projects extends Component {
         title: "Blog App",
         blurb:
           "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
+        liveLink: "https://fso-blog-mongodb.onrender.com/",
         link: "https://github.com/dgwn/fullstackopen/tree/master/part7/extended-bloglist",
         js: true,
         react: true,
