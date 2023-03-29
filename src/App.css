@@ -144,6 +144,9 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+.linkStyle a:hover {
+  text-decoration: underline;
+}
 .techUsed p {
   margin-bottom: 0px;
 }
