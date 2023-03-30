@@ -80,6 +80,9 @@ a {
   font-size: 20px;
   padding: 1em;
 }
+p.contactLink {
+  padding: 0px;
+}
 .social-links {
   display: flex;
   justify-content: space-around;
@@ -139,10 +142,17 @@ a {
   padding: 10px;
   transition: all 0.3s;
 }
+.tileHeader {
+  font-size: 24px;
+  line-height: 32px;
+}
 .linkStyle {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.linkStyle a {
+  color: #db044d;
 }
 .linkStyle a:hover {
   text-decoration: underline;

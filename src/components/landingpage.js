@@ -27,7 +27,8 @@ class Landing extends Component {
                 >
                   <svg className="svg_icon">
                     <use href={sprite + "#icon-linkedin"}></use>
-                  </svg>
+                  </svg>{" "}
+                  <p className="contactLink">LinkedIn</p>
                 </a>
                 <a
                   href="https://github.com/dgwn"
@@ -37,6 +38,7 @@ class Landing extends Component {
                   <svg className="svg_icon">
                     <use href={sprite + "#icon-github"}></use>
                   </svg>
+                  <p className="contactLink">Github</p>
                 </a>
               </div>
             </div>

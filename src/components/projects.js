@@ -45,7 +45,6 @@ class Projects extends Component {
         title: "Drum Machine",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Drum Machine"',
-        link: "https://codepen.io/dgwn/pen/eYYZEOr",
         liveLink: "https://codepen.io/dgwn/pen/eYYZEOr",
         js: true,
         react: true,
@@ -57,7 +56,6 @@ class Projects extends Component {
         title: "Markdown Previewer",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Markdown Previewer"',
-        link: "https://codepen.io/dgwn/pen/XWWWxXZ",
         liveLink: "https://codepen.io/dgwn/pen/XWWWxXZ",
         js: true,
         react: true,
@@ -69,7 +67,6 @@ class Projects extends Component {
         title: "Random Quote Generator",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Random Quote Machine"',
-        link: "https://codepen.io/dgwn/pen/BaBgwBd",
         liveLink: "https://codepen.io/dgwn/pen/BaBgwBd",
         js: true,
         react: true,
@@ -99,23 +96,26 @@ class Projects extends Component {
     ];
 
     return (
-      <div class="tile-container">
-        {PROJECTS.map(function (item) {
-          return (
-            <Tile
-              title={item.title}
-              blurb={item.blurb}
-              link={item.link}
-              liveLink={item.liveLink}
-              js={item.js}
-              react={item.react}
-              node={item.node}
-              db={item.db}
-              ss={item.ss}
-            />
-          );
-        })}
-      </div>
+      <>
+        <h1>Projects</h1>
+        <div class="tile-container">
+          {PROJECTS.map(function (item) {
+            return (
+              <Tile
+                title={item.title}
+                blurb={item.blurb}
+                link={item.link}
+                liveLink={item.liveLink}
+                js={item.js}
+                react={item.react}
+                node={item.node}
+                db={item.db}
+                ss={item.ss}
+              />
+            );
+          })}
+        </div>
+      </>
     );
   }
 }

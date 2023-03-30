@@ -4,7 +4,9 @@ class Tile extends Component {
   render() {
     return (
       <div className="tile">
-        <h4 style={{ whiteSpace: "pre-line" }}>{this.props.title}</h4>
+        <h2 style={{ whiteSpace: "pre-line" }} className="tileHeader">
+          {this.props.title}
+        </h2>
         <div className="linkStyle">
           {this.props.liveLink && (
             <a
@@ -30,6 +32,8 @@ class Tile extends Component {
               class="fab fa-js"
               style={{ fontSize: 30, padding: 10 }}
               alt="Javascript"
+              role="img"
+              aria-hidden="false"
             ></i>
           )}
           {this.props.react && (
@@ -37,6 +41,8 @@ class Tile extends Component {
               class="fab fa-react"
               style={{ fontSize: 30, padding: 10 }}
               alt="ReactJS"
+              role="img"
+              aria-hidden="false"
             ></i>
           )}
           {this.props.node && (
@@ -44,6 +50,8 @@ class Tile extends Component {
               class="fab fa-node-js"
               style={{ fontSize: 30, padding: 10 }}
               alt="NodeJS"
+              role="img"
+              aria-hidden="false"
             ></i>
           )}
           {this.props.db && (
@@ -51,6 +59,8 @@ class Tile extends Component {
               class="fas fa-database"
               style={{ fontSize: 30, padding: 10 }}
               alt="MongoDB"
+              role="img"
+              aria-hidden="false"
             ></i>
           )}
           {this.props.ss && (
@@ -58,6 +68,8 @@ class Tile extends Component {
               class="fab fa-squarespace"
               style={{ fontSize: 30, padding: 10 }}
               alt="Squarespace"
+              role="img"
+              aria-hidden="false"
             ></i>
           )}
         </div>
