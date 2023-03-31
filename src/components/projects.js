@@ -97,7 +97,7 @@ class Projects extends Component {
 
     return (
       <>
-        <h1>Projects</h1>
+        <h1 className="subheading">Projects</h1>
         <div class="tile-container">
           {PROJECTS.map(function (item) {
             return (

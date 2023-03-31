@@ -10,10 +10,10 @@ class Landing extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <h1>Daniel Gawne</h1>
+            <h1 className="name">Daniel Gawne</h1>
             <img src={headshot} alt="headshot" className="avatar-img" />
             <div className="banner-text banner-blue">
-              <h3>Web Developer</h3>
+              <h2 className="subheading">Web Developer</h2>
               <hr />
               <p>
                 Javascript | HTML | CSS/Sass <br></br> ReactJS | NodeJS/Express
@@ -43,7 +43,7 @@ class Landing extends Component {
               </div>
             </div>
             <div className="banner-text banner-yellow">
-              <h3>About Me</h3>
+              <h2 className="subheading">About Me</h2>
               <p className="about-text">
                 Welcome! I am a full stack web developer from the Orlando area.
                 I am experienced in ReactJS, HTML, CSS/Sass, NodeJS, ExpressJS,

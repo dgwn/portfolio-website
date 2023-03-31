@@ -8,6 +8,13 @@ a {
 .header-color {
   background: #fefefe;
 }
+.subheading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 40px;
+  padding-top: 20px;
+  line-height: 40px;
+  letter-spacing: normal;
+}
 /*
 .button-bg{
   display: none;
@@ -45,6 +52,9 @@ a {
   border: 3px solid black;
   box-shadow: -5px 5px black;
   transition: all 0.3s;
+}
+.name {
+  letter-spacing: -0.96px;
 }
 .banner-text p {
   padding: 3em;

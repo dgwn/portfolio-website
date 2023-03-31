@@ -54,7 +54,7 @@ function App() {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" tabindex="-1" ref={contentRef} />
+            <div className="page-content" tabIndex="-1" ref={contentRef} />
             <Main />
             <p class="copyright">&copy; 2022 Daniel Gawne</p>
           </Content>

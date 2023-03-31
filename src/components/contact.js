@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <div>
         <div className="banner-text banner-blue" id="contact-box">
-          <h3>Contact Me</h3>
+          <h1 className="subheading">Contact Me</h1>
           <hr />
           <p>Email: danielgawne@gmail.com</p>
 
