@@ -33,7 +33,7 @@ class Tile extends Component {
               style={{ fontSize: 30, padding: 10 }}
               alt="Javascript"
               role="img"
-              aria-hidden="false"
+              title="Javascript"
             ></i>
           )}
           {this.props.react && (
@@ -42,7 +42,7 @@ class Tile extends Component {
               style={{ fontSize: 30, padding: 10 }}
               alt="ReactJS"
               role="img"
-              aria-hidden="false"
+              title="ReactJS"
             ></i>
           )}
           {this.props.node && (
@@ -51,7 +51,7 @@ class Tile extends Component {
               style={{ fontSize: 30, padding: 10 }}
               alt="NodeJS"
               role="img"
-              aria-hidden="false"
+              title="NodeJS"
             ></i>
           )}
           {this.props.db && (
@@ -60,7 +60,7 @@ class Tile extends Component {
               style={{ fontSize: 30, padding: 10 }}
               alt="MongoDB"
               role="img"
-              aria-hidden="false"
+              title="Database"
             ></i>
           )}
           {this.props.ss && (
@@ -69,7 +69,7 @@ class Tile extends Component {
               style={{ fontSize: 30, padding: 10 }}
               alt="Squarespace"
               role="img"
-              aria-hidden="false"
+              title="Squarespace"
             ></i>
           )}
         </div>

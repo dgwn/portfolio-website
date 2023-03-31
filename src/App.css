@@ -177,6 +177,16 @@ p.contactLink {
   display: flex;
   justify-content: center;
 }
+.skipButton {
+  margin-right: 1rem;
+  position: absolute;
+  transform: translateX(-2000%);
+  transition: transform 0.3s;
+}
+.skipButton:focus {
+  position: static;
+  transform: translateX(0);
+}
 @media only screen and (max-width: 600px) {
   /*covers navbar for some reason on mobile
   .button-bg{

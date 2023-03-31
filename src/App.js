@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
@@ -7,10 +8,19 @@ import resume from "./assets/resume1.pdf";
 import "./App.css";
 
 function App() {
+  const contentRef = useRef();
+
+  const skipToContent = () => {
+    contentRef.current.focus();
+  };
+
   return (
     <div className="App">
       <div className="demo-big-content">
         <div className="button-bg"></div>
+        <button onClick={skipToContent} className="skipButton">
+          Skip to Main Content
+        </button>
         <Layout>
           <Header title=" " class="header-color nav" scroll>
             <Navigation>
@@ -44,7 +54,7 @@ function App() {
             </Navigation>
           </Drawer>
           <Content>
-            <div className="page-content" />
+            <div className="page-content" tabindex="-1" ref={contentRef} />
             <Main />
             <p class="copyright">&copy; 2022 Daniel Gawne</p>
           </Content>
