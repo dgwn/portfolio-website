@@ -33,7 +33,13 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Resume
+                Resume &nbsp;
+                <i
+                  class="fas fa-external-link-alt"
+                  alt="PDF"
+                  role="img"
+                  title="PDF"
+                ></i>
               </a>
               <Link to="/projects" style={{ color: "black" }}>
                 Projects
@@ -47,7 +53,13 @@ function App() {
             <Navigation>
               <Link to="/">Home</Link>
               <a href={resume} target="_blank" rel="noopener noreferrer">
-                Resume
+                Resume &nbsp;
+                <i
+                  class="fas fa-external-link-alt"
+                  alt="PDF"
+                  role="img"
+                  title="PDF"
+                ></i>
               </a>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
