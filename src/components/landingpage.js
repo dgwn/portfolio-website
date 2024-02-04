@@ -70,7 +70,7 @@ class Landing extends Component {
                 Helsinki. I completed the core Full Stack Open program, learning
                 to leverage the latest technologies and frameworks to develop
                 web apps. I also finished courses in DevOps with Docker,
-                Continuous Integration /Continuous Deployment (CI/CD),
+                Continuous Integration / Continuous Deployment (CI/CD),
                 Relational Databases, Containers, and Elements of AI. I like to
                 use my toolkit to work with individuals and organizations in
                 order to help them develop creative and robust tools and
