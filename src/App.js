@@ -68,7 +68,7 @@ function App() {
           <Content>
             <div className="page-content" tabIndex="-1" ref={contentRef} />
             <Main />
-            <p class="copyright">&copy; 2022 Daniel Gawne</p>
+            <p class="copyright">&copy; 2024 Daniel Gawne</p>
           </Content>
         </Layout>
       </div>

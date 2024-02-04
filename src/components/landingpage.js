@@ -16,8 +16,9 @@ class Landing extends Component {
               <h2 className="subheading">Web Developer</h2>
               <hr />
               <p>
-                Javascript | HTML | CSS/Sass <br></br> ReactJS | NodeJS/Express
-                | MongoDB
+                Python | Javascript | AWS<br></br>
+                Flask | Django | NodeJS| ReactJS
+                <br></br>
               </p>
               <div className="social-links">
                 <a
@@ -46,11 +47,12 @@ class Landing extends Component {
               <h2 className="subheading">About Me</h2>
               <p className="about-text">
                 Welcome! I am a full stack web developer from the Orlando area.
-                I am experienced in ReactJS, HTML, CSS/Sass, NodeJS, ExpressJS,
-                vanilla Javascript, Typescript, Git/Github, PHP, and Python. I
-                also have experience doing web design, software testing, UI/UX
+                I am experienced in Python, the Django and Flask web frameworks,
+                Javascript, ReactJS, NodeJS, ExpressJS, Typescript, HTML,
+                CSS/Sass, Git/Github, AWS services, Cloud Computing, and Docker.
+                I also have experience doing web design, QA testing, UI/UX
                 design, Squarespace development, and prototyping in Adobe XD and
-                Photoshop. I have worked in the internet industry for over 7
+                Photoshop. I have worked in the internet industry for over 8
                 years and have done design work since 2010.
               </p>
               <p className="about-text">
@@ -65,12 +67,17 @@ class Landing extends Component {
               </p>
               <p className="about-text">
                 I have also completed coursework through the University of
-                Helsinki's Full Stack Open program, learning to leverage the
-                latest technologies and frameworks to develop web apps. I like
-                to use my toolkit to work with individuals and businesses in
-                order to help them develop creative and robust online presences
-                - whether it be a static web page or interactive full-stack
-                application.
+                Helsinki. I completed the core Full Stack Open program, learning
+                to leverage the latest technologies and frameworks to develop
+                web apps. I also finished courses in DevOps with Docker,
+                Continuous Integration /Continuous Deployment (CI/CD),
+                Relational Databases, Containers, and Elements of AI. I like to
+                use my toolkit to work with individuals and organizations in
+                order to help them develop creative and robust tools and
+                presences - whether it be an interactive full-stack application
+                or a static web page. Most recently I have been working in
+                Education Technology at the University of Central Florida's
+                Center for Distributed Learning.
               </p>
             </div>
           </Cell>
