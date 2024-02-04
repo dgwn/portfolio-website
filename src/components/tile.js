@@ -54,6 +54,15 @@ class Tile extends Component {
               title="NodeJS"
             ></i>
           )}
+          {this.props.python && (
+            <i
+              class="fab fa-python"
+              style={{ fontSize: 30, padding: 10 }}
+              alt="Python"
+              role="img"
+              title="Python"
+            ></i>
+          )}
           {this.props.db && (
             <i
               class="fas fa-database"

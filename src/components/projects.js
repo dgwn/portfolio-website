@@ -6,6 +6,19 @@ class Projects extends Component {
     const PROJECTS = [
       {
         id: 0,
+        title: "Cyclops LTI",
+        blurb:
+          "An OCR image-to-text app built on the LTI 1.3 standard. Allows instructors to embed image text from course files into an LMS (e.g. Canvas) rich content editor.",
+        link: "https://github.com/dgwn/cyclops",
+        js: false,
+        react: false,
+        node: false,
+        db: true,
+        ss: false,
+        python: true
+      },
+      {
+        id: 1,
         title: "Homeland Security\nService LLC - Website",
         blurb:
           "Squarespace site designed, deployed, and delivered by yours truly (archived link)",
@@ -14,10 +27,11 @@ class Projects extends Component {
         react: false,
         node: false,
         db: false,
-        ss: true
+        ss: true,
+        python: false
       },
       {
-        id: 1,
+        id: 2,
         title: "Blog App",
         blurb:
           "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
@@ -26,10 +40,11 @@ class Projects extends Component {
         js: true,
         react: true,
         node: true,
-        db: true
+        db: true,
+        python: false
       },
       {
-        id: 2,
+        id: 3,
         title: "Phonebook",
         blurb:
           "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework. Self-hosted on Linux server",
@@ -38,10 +53,11 @@ class Projects extends Component {
         js: true,
         react: true,
         node: true,
-        db: true
+        db: true,
+        python: false
       },
       {
-        id: 3,
+        id: 4,
         title: "Drum Machine",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Drum Machine"',
@@ -49,10 +65,11 @@ class Projects extends Component {
         js: true,
         react: true,
         node: false,
-        db: false
+        db: false,
+        python: false
       },
       {
-        id: 4,
+        id: 5,
         title: "Markdown Previewer",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Markdown Previewer"',
@@ -60,10 +77,11 @@ class Projects extends Component {
         js: true,
         react: true,
         node: false,
-        db: false
+        db: false,
+        python: false
       },
       {
-        id: 5,
+        id: 6,
         title: "Random Quote Generator",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Random Quote Machine"',
@@ -71,27 +89,30 @@ class Projects extends Component {
         js: true,
         react: true,
         node: false,
-        db: false
+        db: false,
+        python: false
       },
       {
-        id: 6,
+        id: 7,
         title: "Etch Sketch",
         blurb: "Webpage with interactive cursor drawing",
         link: "https://github.com/dgwn/etch-sketch",
         js: true,
         react: false,
         node: false,
-        db: false
+        db: false,
+        python: false
       },
       {
-        id: 7,
+        id: 8,
         title: "Bookmarker",
         blurb: "Client side application to store URL bookmarks",
         link: "https://github.com/dgwn/bookmarker-web-app",
         js: true,
         react: false,
         node: false,
-        db: false
+        db: false,
+        python: false
       }
     ];
 
@@ -111,6 +132,7 @@ class Projects extends Component {
                 node={item.node}
                 db={item.db}
                 ss={item.ss}
+                python={item.python}
               />
             );
           })}
