@@ -1,11 +1,27 @@
 import React, { Component } from "react";
 import Tile from "./tile";
 
+const generateId = () =>
+  `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+
 class Projects extends Component {
   render() {
     const PROJECTS = [
       {
-        id: 0,
+        id: generateId(),
+        title: "Canvas Deployment Docs",
+        blurb:
+          "Documentation for running a local development server for Canvas LMS on Ubuntu (Docker, nginx, Linux). Supplements incomplete official docs.",
+        link: "https://github.com/ucfcdl/Running-Canvas-LMS-Locally",
+        js: false,
+        react: false,
+        node: false,
+        db: false,
+        python: false,
+        linux: true
+      },
+      {
+        id: generateId(),
         title: "Cyclops LTI",
         blurb:
           "An OCR image-to-text app built on the LTI 1.3 standard. Allows instructors to embed image text from course files into an LMS (e.g. Canvas) rich content editor.",
@@ -18,20 +34,7 @@ class Projects extends Component {
         python: true
       },
       {
-        id: 1,
-        title: "Homeland Security\nService LLC - Website",
-        blurb:
-          "Squarespace site designed, deployed, and delivered by yours truly (archived link)",
-        liveLink: "https://archive.ph/LJFyS",
-        js: false,
-        react: false,
-        node: false,
-        db: false,
-        ss: true,
-        python: false
-      },
-      {
-        id: 2,
+        id: generateId(),
         title: "Blog App",
         blurb:
           "Blogging app with REST API, React frontend, Node/Express backend and MongoDB. Create a user and try it out!",
@@ -44,12 +47,11 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 3,
+        id: generateId(),
         title: "Phonebook",
         blurb:
-          "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework. Self-hosted on Linux server",
+          "Phonebook app with REST API, Node/Express backend and MongoDB. Made to fulfill Univ. of Helsinki's Full Stack Open coursework.",
         link: "https://github.com/dgwn/fullstackopen/tree/master/part3/phonebook",
-        liveLink: "http://phonebook.crabdance.com",
         js: true,
         react: true,
         node: true,
@@ -57,7 +59,7 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 4,
+        id: generateId(),
         title: "Drum Machine",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Drum Machine"',
@@ -69,7 +71,7 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 5,
+        id: generateId(),
         title: "Markdown Previewer",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Markdown Previewer"',
@@ -81,7 +83,7 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 6,
+        id: generateId(),
         title: "Random Quote Generator",
         blurb:
           'Fulfills FreeCodeCamp front-end-libraries project: "Build a Random Quote Machine"',
@@ -93,7 +95,7 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 7,
+        id: generateId(),
         title: "Etch Sketch",
         blurb: "Webpage with interactive cursor drawing",
         link: "https://github.com/dgwn/etch-sketch",
@@ -104,7 +106,7 @@ class Projects extends Component {
         python: false
       },
       {
-        id: 8,
+        id: generateId(),
         title: "Bookmarker",
         blurb: "Client side application to store URL bookmarks",
         link: "https://github.com/dgwn/bookmarker-web-app",
@@ -133,6 +135,7 @@ class Projects extends Component {
                 db={item.db}
                 ss={item.ss}
                 python={item.python}
+                linux={item.linux}
               />
             );
           })}

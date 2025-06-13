@@ -81,6 +81,15 @@ class Tile extends Component {
               title="Squarespace"
             ></i>
           )}
+          {this.props.linux && (
+            <i
+              class="fa fa-linux"
+              style={{ fontSize: 30, padding: 10 }}
+              alt="Linux"
+              role="img"
+              title="Linux"
+            ></i>
+          )}
         </div>
       </div>
     );
