@@ -79,6 +79,9 @@ a {
   color: black;
   padding-top: 20px;
 }
+.banner-text h2 {
+  padding: 0px 10px;
+}
 .banner-text hr {
   border-top: 5px solid black;
   width: 50%;
@@ -260,6 +263,9 @@ p.contactLink {
   }
   .banner-text {
     width: 95%;
+  }
+  .banner-text h2 {
+    font-size: 2em;
   }
   .banner-text p {
     font-size: 1em;
