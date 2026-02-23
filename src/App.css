@@ -32,7 +32,7 @@ a {
   margin: -10px auto 30px auto;
 }
 .avatar-img {
-  height: 250px;
+  height: 200px;
   border-radius: 100%;
   border: 3px solid black;
   margin: -20px auto 10px auto;
@@ -90,6 +90,12 @@ a {
   font-size: 20px;
   padding: 1em;
 }
+p.about-text {
+  text-align: justify;
+  font-size: 16px;
+  margin: 0em 1em -0.5em 1em;
+  line-height: 1.5;
+}
 p.contactLink {
   padding: 0px;
 }
@@ -129,11 +135,20 @@ p.contactLink {
   margin-top: -5px;
 }
 
-.about-text {
-  text-align: center;
-  font-size: 16px;
-  margin: 0em 2em 1em 2em;
-  line-height: 30px;
+.about-text-container {
+  display: block;
+  padding: 0 2em 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .about-text {
+    margin: 0 0 0.5em 0;
+  }
 }
 .tile-container {
   display: flex;
@@ -197,6 +212,28 @@ p.contactLink {
   position: static;
   transform: translateX(0);
 }
+
+/* override hamburger menu button */
+.mdl-layout__drawer-button {
+  position: fixed !important;
+  top: 16px;
+  left: 16px;
+  z-index: 5;
+  background-color: white !important;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1.5px black;
+  border: none;
+}
+
+.mdl-layout__drawer-button:hover {
+  box-shadow: 0 0 0 3px black;
+}
+
 @media only screen and (max-width: 600px) {
   /*covers navbar for some reason on mobile
   .button-bg{
@@ -239,8 +276,15 @@ p.contactLink {
   .tile p {
     font-size: 1em;
   }
+
   div.mdl-layout__drawer {
     display: flex;
+  }
+  .about-text-container {
+    padding: 0 0.5em 2em;
+  }
+  .about-text {
+    margin: 0em 0.5em 1em 0.5em;
   }
 }
 
@@ -256,8 +300,15 @@ p.contactLink {
   }
 }
 @media only screen and (min-width: 1600px) {
-  .about-text {
-    margin: 0em auto 1em auto;
-    max-width: 960px;
+  .banner-text {
+    max-width: 1200px;
+  }
+
+  .about-text-container {
+    max-width: 1400px;
+    padding: 0 2em 2em;
+  }
+  p.about-text {
+    font-size: 20px;
   }
 }

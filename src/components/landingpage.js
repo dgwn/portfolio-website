@@ -13,12 +13,13 @@ class Landing extends Component {
             <h1 className="name">Daniel Gawne</h1>
             <img src={headshot} alt="headshot" className="avatar-img" />
             <div className="banner-text banner-blue">
-              <h2 className="subheading">Web Developer</h2>
+              <h2 className="subheading">WebDev / DevOps Engineer</h2>
               <hr />
               <p>
-                Python | Javascript | AWS<br></br>
+                Python | Linux | AWS<br></br>
                 Flask | Django | NodeJS| ReactJS
                 <br></br>
+                OpenTofu | Terraform | Docker | CI/CD
               </p>
               <div className="social-links">
                 <a
@@ -45,40 +46,48 @@ class Landing extends Component {
             </div>
             <div className="banner-text banner-yellow">
               <h2 className="subheading">About Me</h2>
-              <p className="about-text">
-                Welcome! I am a full stack web developer from the Orlando area.
-                I am experienced in Python, the Django and Flask web frameworks,
-                Javascript, ReactJS, NodeJS, ExpressJS, Typescript, HTML,
-                CSS/Sass, Git/Github, AWS services, Cloud Computing, and Docker.
-                I also have experience doing web design, QA testing, UI/UX
-                design, Squarespace development, and prototyping in Adobe XD and
-                Photoshop. I have worked in the internet industry for over 8
-                years and have done design work since 2010.
-              </p>
-              <p className="about-text">
-                I graduated from the University of Central Florida with a B.A.
-                in Philosophy and a minor in Sociology. My studies involved a
-                research intensive program which developed analytic skills
-                through the use of formal logic and critical thinking. My
-                program included coursework focused on Ethics in Technology,
-                language, communication, demographic studies, and social trends.
-                These tools are indispensible both for writing clean, coherent,
-                and consistent code as well as for doing UX research.
-              </p>
-              <p className="about-text">
-                I have also completed coursework through the University of
-                Helsinki. I completed the core Full Stack Open program, learning
-                to leverage the latest technologies and frameworks to develop
-                web apps. I also finished courses in DevOps with Docker,
-                Continuous Integration / Continuous Deployment (CI/CD),
-                Relational Databases, Containers, and Elements of AI. I like to
-                use my toolkit to work with individuals and organizations in
-                order to help them develop creative and robust tools and
-                presences - whether it be an interactive full-stack application
-                or a static web page. Most recently I have been working in
-                Education Technology at the University of Central Florida's
-                Center for Distributed Learning.
-              </p>
+              <div className="about-text-container">
+                <p className="about-text">
+                  Hello! I am a full stack web developer and devops engineer
+                  from the St. Louis area. I am experienced in Python, the
+                  Django and Flask web frameworks, AWS services, Cloud
+                  Computing, Infrastructure as Code (OpenTofu/Terraform), Linux
+                  server administration, Javascript, React, Node, Express, HTML,
+                  CSS, Git/Github, and Docker. I also have experience doing web
+                  design, QA testing, UI/UX design, and prototyping in Adobe XD
+                  and Photoshop. I've worked in the internet industry for over
+                  10 years and have done design work since 2010.
+                </p>
+                <p className="about-text">
+                  I graduated from the University of Central Florida with a{" "}
+                  <strong>B.A. in Philosophy</strong> and a minor in Sociology.
+                  My studies involved a research intensive program which
+                  developed analytic skills through the use of formal logic and
+                  critical thinking. My program included coursework focused on
+                  ethics in technology, formal logic, language, communication,
+                  philosophy of mind, critical theory, media studies, and social
+                  trends. I have also done coursework throught the University of
+                  Helsinki in full stack development (primarily with the MERN
+                  stack) and devops (containerization, CI/CD) and am certified
+                  as an <strong>AWS Solutions Architect Associate</strong>.
+                </p>
+                <p className="about-text">
+                  Most recently I have been working in Education Technology at{" "}
+                  <strong> UCF's Center for Distributed Learning</strong> on the
+                  Learning Systems & Technology team. I started with a focus in
+                  backend web development with Python (Flask and Django) while
+                  also picking up chops in the devops space with cloud
+                  computing, Infrastructure as Code, setting up CI/CD pipelines,
+                  and containerization. My work has helped to set numerous
+                  standards and build templates for the team to bootstrap
+                  development and deployment of new learning applications,
+                  helping provide more accessible education to university
+                  students, and enable faculty and instructional designers to
+                  create engaging learning experiences. I have also contributed
+                  to open source and open education more broadly, check out my{" "}
+                  <strong>'Projects'</strong> page for more details!
+                </p>
+              </div>
             </div>
           </Cell>
         </Grid>
