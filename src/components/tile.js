@@ -29,7 +29,7 @@ class Tile extends Component {
           <p>Technologies Used:</p>
           {this.props.js && (
             <i
-              class="fab fa-js"
+              className="fab fa-js"
               style={{ fontSize: 30, padding: 10 }}
               alt="Javascript"
               role="img"
@@ -38,7 +38,7 @@ class Tile extends Component {
           )}
           {this.props.react && (
             <i
-              class="fab fa-react"
+              className="fab fa-react"
               style={{ fontSize: 30, padding: 10 }}
               alt="ReactJS"
               role="img"
@@ -47,7 +47,7 @@ class Tile extends Component {
           )}
           {this.props.node && (
             <i
-              class="fab fa-node-js"
+              className="fab fa-node-js"
               style={{ fontSize: 30, padding: 10 }}
               alt="NodeJS"
               role="img"
@@ -56,7 +56,7 @@ class Tile extends Component {
           )}
           {this.props.python && (
             <i
-              class="fab fa-python"
+              className="fab fa-python"
               style={{ fontSize: 30, padding: 10 }}
               alt="Python"
               role="img"
@@ -65,7 +65,7 @@ class Tile extends Component {
           )}
           {this.props.db && (
             <i
-              class="fas fa-database"
+              className="fas fa-database"
               style={{ fontSize: 30, padding: 10 }}
               alt="MongoDB"
               role="img"
@@ -74,7 +74,7 @@ class Tile extends Component {
           )}
           {this.props.ss && (
             <i
-              class="fab fa-squarespace"
+              className="fab fa-squarespace"
               style={{ fontSize: 30, padding: 10 }}
               alt="Squarespace"
               role="img"
@@ -83,7 +83,7 @@ class Tile extends Component {
           )}
           {this.props.linux && (
             <i
-              class="fa fa-linux"
+              className="fa fa-linux"
               style={{ fontSize: 30, padding: 10 }}
               alt="Linux"
               role="img"
