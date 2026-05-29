@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
 import headshot from "../assets/headshot.jpg";
 
 import sprite from "../assets/sprite.svg";
@@ -8,8 +7,8 @@ class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
-        <Grid className="landing-grid">
-          <Cell col={12}>
+        <div className="landing-grid">
+          <div className="landing-cell">
             <h1 className="name">Daniel Gawne</h1>
             <img src={headshot} alt="headshot" className="avatar-img" />
             <div className="banner-text banner-blue">
@@ -49,7 +48,7 @@ class Landing extends Component {
               <div className="about-text-container">
                 <p className="about-text">
                   Hello! I am a full stack web developer and devops engineer
-                  from the St. Louis area. I am experienced in Python, the
+                  located in the St. Louis area. I am experienced in Python, the
                   Django and Flask web frameworks, AWS services, Cloud
                   Computing, Infrastructure as Code (OpenTofu/Terraform), Linux
                   server administration, Javascript, React, Node, Express, HTML,
@@ -89,8 +88,8 @@ class Landing extends Component {
                 </p>
               </div>
             </div>
-          </Cell>
-        </Grid>
+          </div>
+        </div>
       </div>
     );
   }
