@@ -49,10 +49,6 @@ a {
 /* =============================================================
    Nav
    ============================================================= */
-.nav-toggle {
-  display: none;
-}
-
 .nav-hamburger {
   display: none;
   width: 48px;
@@ -156,16 +152,19 @@ a {
   font-family: "Noto Sans", sans-serif;
   font-size: 48px;
   height: 64px;
-  padding-top: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: black;
   margin: -10px auto 30px auto;
 }
 .avatar-img {
+  display: block;
   height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 100%;
   border: 3px solid black;
-  margin: -20px auto 10px auto;
+  margin: -30px auto 30px auto;
 }
 .banner-text {
   background-color: white;
@@ -183,6 +182,10 @@ a {
 .banner-blue {
   background-color: #c0fcdc;
 }
+.banner-blue {
+  background-color: #c0fcdc;
+  max-width: 60%;
+}
 .banner-blue:hover {
   background-color: #9aebc0;
   box-shadow: -8px 8px black;
@@ -194,13 +197,8 @@ a {
   background-color: #f0e76f;
   box-shadow: -8px 8px black;
 }
-.banner-text h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 40px;
-  color: black;
-  padding-top: 20px;
-}
 .banner-text h2 {
+  font-size: 36px;
   padding: 0px 10px;
   font-weight: 400;
   margin: 24px 0px;
@@ -238,23 +236,19 @@ p.contactLink {
   padding-left: 20px;
   padding-right: 20px;
 }
-
 .social-links i {
   font-size: 5em;
-  padding-bottom: 30px;
   margin-bottom: 10px;
   -webkit-transition: margin 0.1s ease-out;
   -moz-transition: margin 0.1s ease-out;
   -o-transition: margin 0.1s ease-out;
 }
-
 .social-links i:hover {
   margin-top: -5px;
 }
 .social-links p {
   margin-bottom: 16px;
 }
-
 .svg_icon {
   height: 4.5em;
   width: 4.5em;
@@ -262,11 +256,9 @@ p.contactLink {
   -moz-transition: margin 0.1s ease-out;
   -o-transition: margin 0.1s ease-out;
 }
-
 .svg_icon:hover {
   margin-top: -5px;
 }
-
 .about-text-container {
   display: block;
   padding: 0 2em 2em;
@@ -280,7 +272,6 @@ p.contactLink {
     max-width: 1200px;
     margin: 0 auto;
   }
-
   .about-text {
     margin: 0 0 0.5em 0;
   }
@@ -344,6 +335,8 @@ p.contactLink {
 .copyright {
   border-top: 3px solid black;
   margin-bottom: 0px;
+  display: block;
+  width: 100%;
 }
 #contact-box {
   display: flex;
@@ -358,7 +351,6 @@ p.contactLink {
   margin-bottom: 24px;
   font-weight: 400;
 }
-
 .skipButton {
   margin-right: 1rem;
   position: absolute;
@@ -402,7 +394,7 @@ p.contactLink {
     z-index: 1000;
     transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .nav-toggle:checked ~ .main-nav {
+  .main-nav.open {
     left: 0;
   }
   .main-nav a,
@@ -410,11 +402,11 @@ p.contactLink {
     line-height: 1.5;
     padding: 0.4em 0;
   }
-  .nav-toggle:not(:checked) ~ .main-nav a {
+  .main-nav:not(.open) a {
     pointer-events: none;
     opacity: 0.5;
   }
-  .nav-toggle:checked ~ .main-nav a {
+  .main-nav.open a {
     pointer-events: auto;
     opacity: 1;
   }
@@ -428,6 +420,11 @@ p.contactLink {
     width: auto;
     margin-left: 16px;
     margin-right: 16px;
+  }
+
+  .banner-blue {
+    background-color: #c0fcdc;
+    max-width: 100%;
   }
   .banner-text h2 {
     font-size: 2em;
@@ -462,7 +459,10 @@ p.contactLink {
   .banner-text {
     max-width: 1200px;
   }
-
+  .banner-blue {
+    background-color: #c0fcdc;
+    max-width: 960px;
+  }
   .about-text-container {
     max-width: 1400px;
     padding: 0 2em 2em;
