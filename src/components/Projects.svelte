@@ -9,6 +9,12 @@
       linux: true
     },
     {
+      title: "Python LTI 1.3 Cookiecutter",
+      blurb: "Cookiecutter template for Python LTI 1.3 tool development. Creates customizable Flask/Django learning tool applications using industry standard Learning Management System integrations.",
+      link: "https://github.com/ucfopen/cookiecutter-python-lti",
+      python: true
+    },
+    {
       title: "Cyclops LTI",
       blurb: "An OCR image-to-text app built on the LTI 1.3 standard. Allows instructors to embed image text from course files into an LMS (e.g. Canvas) rich content editor.",
       link: "https://github.com/dgwn/cyclops",
